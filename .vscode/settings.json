@@ -16,10 +16,8 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "markdownlint.configFile": ".markdownlint.yaml",
-  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
   "python.languageServer": "None",
-  "python.terminal.activateEnvInCurrentTerminal": false,
-  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvironment": false,
   "ruff.lint.enable": true,
   "ruff.nativeServer": true
 }
