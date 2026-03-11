@@ -129,7 +129,7 @@ jobs:
         shell: bash
         run: |
           pip install pytest
-          python -m pytest tests/test_run_update_xplat.py -v
+          python -m pytest tests/test_run_update_xplat.py -v --noconftest
 
       - name: Headless startup smoke (Windows)
         if: runner.os == 'Windows'
