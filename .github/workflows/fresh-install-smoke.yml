@@ -125,6 +125,16 @@ jobs:
           test -f 2-start.sh || exit 1
           echo "[OK] 2-start.sh present"
 
+      - name: Cross-platform update launcher test (Windows)
+        if: runner.os == 'Windows'
+        shell: cmd
+        run: .venv\Scripts\python.exe -m pytest tests\test_run_update_xplat.py -v
+
+      - name: Cross-platform update launcher test (Unix)
+        if: runner.os != 'Windows'
+        shell: bash
+        run: .venv/bin/python -m pytest tests/test_run_update_xplat.py -v
+
       - name: Headless startup smoke (Windows)
         if: runner.os == 'Windows'
         shell: cmd
