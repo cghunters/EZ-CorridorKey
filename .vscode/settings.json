@@ -9,6 +9,12 @@
     },
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
   "markdownlint.configFile": ".markdownlint.yaml",
   "python.languageServer": "None",
   "ruff.lint.enable": true,
