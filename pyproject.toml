@@ -3,9 +3,16 @@ name = "corridorkey"
 version = "2.0.0"
 description = "AI Green Screen Keyer by Corridor Digital"
 license = { text = "CC-BY-NC-SA-4.0" }
-requires-python = ">=3.14"
+requires-python = ">=3.13"
 readme = "README.md"
 dependencies = ["zensical>=0.0.26"]
 
 [dependency-groups]
-dev = ["pytest>=9.0.2", "pytest-cov>=7.0.0", "ruff>=0.15.5", "ty>=0.0.21"]
+dev = [
+  "git-cliff>=2.12.0",
+  "pre-commit>=4.5.1",
+  "pytest>=9.0.2",
+  "pytest-cov>=7.0.0",
+  "ruff>=0.15.5",
+  "ty>=0.0.21",
+]
