@@ -27,6 +27,7 @@ EZ-CorridorKey — open-source AI chroma keyer (нейросетевой кее�
 - [x] DPX → EXR конвертер (OCIO, compositing_log → ACES 2065-1)
 - [x] Исследование CorridorKey-for-Nuke плагина
 - [ ] CorridorKey-for-Nuke: установить когда будет Nuke 17 + 128 GB RAM
+- [x] CorridorKey-Runtime v0.7.3 OFX → DaVinci Resolve на Mac (CoreML, Apple Silicon)
 - [ ] Альтернатива: свой Python Nuke node через MLX backend на Mac
 - [x] Cryptomatte EXR генератор (Python, Nuke 16+ compatible)
 - [x] Тест Cryptomatte EXR в Nuke 16.0v7 — РАБОТАЕТ (picker + matte)
